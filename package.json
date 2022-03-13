@@ -1,0 +1,24 @@
+{
+  "name": "shareeattt",
+  "description": "accepting universal payments with Stripe.",
+  "version": "0.0.1",
+  "private": true,
+  "author": "shareeat.fr",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^3.6.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.7",
+    "stripe": "^8.208.0"
+  },
+  "devDependencies": {
+    "ngrok": "^3.2.3"
+  }
+}
